@@ -63,6 +63,9 @@
       <div class="container">
         <div class="col-md-12">
           <div class="card card-outline card-dark">
+            <div class="card-header">
+              
+            </div>
             <div class="card-body">
               
               <table class="table table-bordered">
@@ -128,12 +131,7 @@
   </div>
   <!-- /.content-wrapper -->
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
-
+  
   <!-- Footer -->
   <footer class="main-footer text-center">
     <!-- Default to the left -->

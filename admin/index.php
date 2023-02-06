@@ -81,11 +81,17 @@ if($_SESSION['level'] == ""){
           <div class="card card-outline card-dark">
             <div class="card-body">
               <div class="row">
+                <?php
+                  include '../koneksi.php';
+                  $no = 1;
+                  $data = mysqli_query($koneksi, "select * from kamar");
+                  $jumlah_kamar = mysqli_num_rows($data); 
+                ?>
                 <div class="col-lg-3 col-6">
                   <!-- small card -->
                   <div class="small-box bg-info">
                     <div class="inner">
-                      <h3>150</h3>
+                      <h3><?php echo $jumlah_kamar; ?></h3>
 
                       <p>Data Kamar</p>
                     </div>
@@ -98,11 +104,17 @@ if($_SESSION['level'] == ""){
                   </div>
                 </div>
 
+                <?php
+                  include '../koneksi.php';
+                  $no = 1;
+                  $data = mysqli_query($koneksi, "select * from fasilitas_kamar");
+                  $jumlah_fasilitas = mysqli_num_rows($data); 
+                ?>
                 <div class="col-lg-3 col-6">
                   <!-- small card -->
                   <div class="small-box bg-info">
                     <div class="inner">
-                      <h3>150</h3>
+                      <h3><?php echo $jumlah_fasilitas; ?></h3>
 
                       <p>Fasilitas Kamar</p>
                     </div>
@@ -113,13 +125,19 @@ if($_SESSION['level'] == ""){
                       More info <i class="fas fa-arrow-circle-right"></i>
                     </a>
                   </div>
-                </div>
+                </div> 
 
+                <?php
+                  include '../koneksi.php';
+                  $no = 1;
+                  $data = mysqli_query($koneksi, "select * from galeri");
+                  $jumlah_galeri = mysqli_num_rows($data); 
+                ?>
                 <div class="col-lg-3 col-6">
                   <!-- small card -->
                   <div class="small-box bg-info">
                     <div class="inner">
-                      <h3>150</h3>
+                      <h3><?php echo $jumlah_galeri; ?></h3>
 
                       <p>Galeri</p>
                     </div>
@@ -132,11 +150,17 @@ if($_SESSION['level'] == ""){
                   </div>
                 </div>
 
+                <?php
+                  include '../koneksi.php';
+                  $no = 1;
+                  $data = mysqli_query($koneksi, "select * from users");
+                  $jumlah_user = mysqli_num_rows($data); 
+                ?>
                 <div class="col-lg-3 col-6">
                   <!-- small card -->
                   <div class="small-box bg-info">
                     <div class="inner">
-                      <h3>150</h3>
+                      <h3><?php echo $jumlah_user; ?></h3>
 
                       <p>Users</p>
                     </div>
@@ -158,16 +182,11 @@ if($_SESSION['level'] == ""){
 </div>
   <!-- /.content-wrapper -->
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
-
+  
   <!-- Footer -->
   <footer class="main-footer text-center">
-      <!-- Default to the left -->
-    <strong>Copyright <a href="#">Hotel Hebat</a> 2023. </strong>All Right Reserved
+    <!-- Default to the left -->
+    <strong>Made with ❤ by <a href="https://aryasenaa.github.io/portofolio-tailwindcss/">Arya Sena🤙</a> using <a href="https://adminlte.io">AdminLTE.io</a></strong>
   </footer>
 
 </div>

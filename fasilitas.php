@@ -146,9 +146,9 @@ include 'koneksi.php'
         <div class="row">
 
           <div class="col-md-8 text-dark">
-            <h2><b>Hubungi Kami</b></h2><br>
+            <h3><b>Hubungi Kami</b></h3><br>
             <p>
-              Jl. Veteran, BugulmLor, Kec. Panggungrejo, Kota Pasuruan, Jawa Timur 67122<br>
+              Jl. Veteran, Bugul Lor, Kec. Panggungrejo, Kota Pasuruan, Jawa Timur 67122<br>
               Telp : (0343) 421380<br>
               www.hotel-hebat.com<br>
               Email: info@hotel-hebat.com
@@ -156,7 +156,7 @@ include 'koneksi.php'
           </div>
 
             <div class="col-md-4 text-dark">
-              <h2 class="mb-4"><b>Stay Social</b></h2>
+              <h3 class="mb-4"><b>Stay Social</b></h3>
               <div class="flex items-center">
 
                 <!-- instagram -->
@@ -178,9 +178,12 @@ include 'koneksi.php'
             </div>
         </div>
       </div>
+
+      <hr class="my-0 bg-secondary mb-2">
+
       <div class="text-center">
         <!-- Default to the left -->
-        <strong>Copyright <a href="#">Hotel Hebat</a> 2023. </strong>All Right Reserved
+        <strong>Made with ❤ by <a href="https://aryasenaa.github.io/portofolio-tailwindcss/">Arya Sena🤙</a> using <a href="https://adminlte.io">AdminLTE.io</a></strong>
       </div>
     </div>
   </footer>

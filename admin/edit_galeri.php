@@ -116,16 +116,12 @@ if (isset($_GET['id_galeri'])) {
   </div>
   <!-- /.content-wrapper -->
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+  
 
   <!-- Main Footer -->
   <footer class="main-footer text-center">
-      <!-- Default to the left -->
-    <strong>Copyright <a href="#">Hotel Hebat</a> 2023. </strong>All Right Reserved
+    <!-- Default to the left -->
+    <strong>Made with ❤ by <a href="https://aryasenaa.github.io/portofolio-tailwindcss/">Arya Sena🤙</a> using <a href="https://adminlte.io">AdminLTE.io</a></strong>
   </footer>
 </div>
 <!-- ./wrapper -->

@@ -76,9 +76,9 @@ if($_SESSION['level'] == ""){
                   include '../koneksi.php';
                   $no = 1;
                   $data = mysqli_query($koneksi, "select * from pemesanan");
-                  $jumlah_pesanan = mysqli_num_rows($data);
+                  $jumlah_pesanan = mysqli_num_rows($data); 
                 ?>
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-12 col-6">
                   <!-- small card -->
                   <div class="small-box bg-info">
                     <div class="inner">
@@ -103,12 +103,6 @@ if($_SESSION['level'] == ""){
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
 
   <!-- Footer -->
   <footer class="main-footer text-center">
